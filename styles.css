@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #111827;
+    color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.contenedor-principal {
+    background-color: #1e293b;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 480px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    text-align: center;
+    color: #38bdf8;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+}
+
+.campo-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%;
+    background-color: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    padding: 10px;
+    color: #f8fafc;
+    font-size: 0.9rem;
+    outline: none;
+}
+
+input::placeholder {
+    color: #64748b;
+}
+
+input:focus,
+select:focus {
+    border-color: #38bdf8;
+}
+
+.campo-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.campo-checkbox label {
+    margin-bottom: 0;
+    color: #cbd5e1;
+    font-weight: normal;
+}
+
+.btn-enviar {
+    width: 100%;
+    padding: 12px;
+    background-color: #0284c7;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: #0369a1;
+}
